@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn= "navigation_view">
+
+    <group >
+        <item
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/nav_home_24"
+            android:title="Home"
+            android:id="@+id/nav_home"/>
+        <item
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/baseline_settings_24"
+            android:title="Settings"
+            android:id="@+id/nav_settings"/>
+        <item
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/nav_share"
+            android:title="Share"
+            android:id="@+id/nav_share"/>
+        <item
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/nav_about"
+            android:title="About"
+            android:id="@+id/nav_about"/>
+        <item
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/baseline_history_24"
+            android:title="Saved results"
+            android:id="@+id/nav_resultHistory"
+
+            />
+    </group>
+
+    <item android:title="">
+
+        <menu>
+            <item
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/baseline_exit_to_app_24"
+                android:title="Logout"
+                android:id="@+id/nav_logout"
+          />
+        </menu>
+    </item>
+</menu>

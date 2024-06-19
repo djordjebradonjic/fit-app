@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FitApp</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="step_counter">STEP COUNTER</string>
+    <string name="btnpause">btnPause</string>
+    <string name="distance_0">Distance:0</string>
+    <string name="steps">Steps :</string>
+    <string name="step_goal_5000">Step goal: 5000</string>
+    <string name="time_0">Time:0</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="Settings" />
+</resources>
